@@ -1,0 +1,477 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ img {
+    width: 150px;
+    height: 100px;
+}
+
+#header {
+    display: flex;
+    background-color: #10222E;
+    height: 100px;
+    
+}
+
+#navbar {
+    display: flex;
+    
+
+}
+#navbar a{
+    text-decoration: none;
+    color : white;
+	font-size : 17px;
+    padding:0px; 
+    font-family: Fantasy;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+#navbar a:hover{
+    color: #FB4F38;
+}
+#home{
+    margin-left: 150px;
+}
+
+#log{
+   margin-left: 300px;
+   margin-right: 20px !important;
+}
+#reg{
+    margin-left: 20px;
+}
+
+#slider{
+    height:auto;
+}
+#slider img{
+    height: 700px;
+    width: 100%;
+}
+
+#opis{
+    padding-top: 50px;
+    background: url("../img/lambo.jpg") no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+}
+#opis p{
+    
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    color: white;
+    padding: 20px 50px;
+
+}
+#p2{
+    margin-top: 50px;
+}
+#okvir .p1{
+    padding-top: 30px ;
+    color: white;
+    font-size: 20px;
+}
+#okvir .naslov{
+    text-decoration-line: underline;
+}
+#okvir{
+    margin: 0px 50px;
+    padding : 50px 100px;
+    height:auto;
+    background-color: rgba(53, 53, 53, 0.8);
+}
+#location{
+    padding: 40px 20px;
+    background: url("../img/pozadina4.jpg") no-repeat ;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    
+}
+
+#location .divnav {
+    width: 400px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 20px 20px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: aquamarine;
+    border-width: 2px;
+}
+#location .divnav:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#location .divnav p{
+    padding: 30px 10px ;
+    font-size: 40px;
+    text-align: center;
+    color: #f67800;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#location .divnav hr{
+    width : 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    
+}
+#location .divnav h3{
+    color:#333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 60px;
+
+
+}
+#location .divnav a {
+    width: 200px;
+    color: #fff;
+    background-color: #00498a;
+    border-color: #00294d;
+    border-width: 1px;
+    border-radius: 6px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 100px;
+    margin-left: 110px;
+    
+   
+
+}
+
+
+
+#logo img{
+    display: block;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 250px;
+}
+
+#car {
+    display:block;
+    text-align: center;
+}
+#car p{
+    padding: 30px 0px;
+    color:black;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.naslov{
+    font-family: "OpenSans ";
+    font-size: 41px;
+    letter-spacing: 10px;
+    padding-top: 66px;
+    padding-bottom: 70px;
+    color: #020243;
+    text-align: center;
+    font-weight: 500;
+}
+
+#sortiranje{
+    padding-bottom: 100px;
+    display: block;
+}
+#sortiranje ul li{
+    float:left;
+    display: block;
+    padding-left: 20px;
+    text-align: center;
+    color: #00498a;
+}
+#sortiranje ul #sort{
+    padding-left: 300px;
+    color:#00294d
+}
+#sortiranje ul button{
+    padding-right: 20px;
+    margin-left: 10px;
+   
+}
+
+
+
+
+#box{
+    padding-left: 15px;
+    height: auto;
+    width: auto;
+
+}
+#box .modeli{
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    border: 1px solid #00498a;;
+    margin:10px 5px;
+    background-color: #00305a;
+}
+
+#box .modeli img{
+    width: 248px;
+    height:150px
+}
+#box .modeli h3{
+    color:white;
+    text-align: center;
+}
+#box .modeli h4{
+    color:white;
+    text-align: center;
+}
+#box .modeli button a{
+    text-decoration: none;
+    font-size: 15px;
+}
+#box .modeli button{
+    margin-top: 10px;
+    padding: 2px 10px;
+    margin-left: 93px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: rgb(116, 255, 255);
+}
+#box .modeli button:hover{
+    background-color: black;
+    
+}
+#box .modeli p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+
+#footer{
+	display: flex;
+    justify-content: space-between;
+	background-color : rgb(65, 64, 64);
+    height:50px;
+}
+#footer .footer{
+	padding:5px;
+	color:white;
+	font-size:15px;
+	font-family : cursive;
+	
+}
+#footer .footer .widget > img{
+	text-decoration:none;
+	height: 30px;
+	width: 30px;
+	
+}
+#gall{
+    display: block;
+    padding-left: 0px;
+}
+#gall a img{
+   padding-left: 15px;
+    padding-bottom: 15px;
+    width: 330px;
+    height: 230px;
+}
+
+.mesage{
+    color: #ff6f00;
+
+}
+
+
+
+#logovanje{
+	margin: 0;
+	padding: 0;
+	
+	min-height: 500px;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+#logovanje p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+#fade-box{
+    padding-left: 530px;
+    padding-top: 80px;
+}
+#logovanje input{
+    display : block;
+    padding: 5px 2px;
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+
+}
+
+#registrovanje{
+    margin: 0;
+	padding: 0;
+	
+	min-height: 750px;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+#registrovanje p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
+#reg{
+    padding-left: 530px;
+    padding-top: 80px;
+}
+#reg input,select{
+    display :block;
+    padding: 5px 2px;
+    width: 300px;
+    height: 30px;
+    margin-top: 25px;
+}
+#contact{
+    min-height: 500px;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+#contact p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
+#cont{
+    padding-left: 530px;
+    padding-top: 80px;
+}
+#cont input,textarea{
+    display :block;
+    padding: 5px 2px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#kontakt{
+    display :block;
+    padding: 5px 2px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#navbar2 {
+    display: flex;
+   
+padding-top: 40px;
+text-transform: uppercase;
+
+}
+#navbar2 a{
+    text-decoration: none;
+    color : white;
+	font-size : 17px;
+    padding:0px; 
+    font-family: Fantasy;
+  
+  
+}
+#navbar2 a:hover{
+    color: #FB4F38;
+}
+#navbar2 ul li {
+    display: inline-block;
+}
+
+.infoPP{
+    color : white;
+    font-size: 25px;
+}
+
+#rentdiv{
+    min-height: 550px;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+#rentdiv form label{
+    color: #FB4F38;
+}
+#rent{
+    padding-left: 530px;
+    padding-top: 20px;
+}
+
+#rent input,select{
+    display :block;
+    padding: 5px 2px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+#rentsubmit{
+    display :block;
+    padding: 5px 2px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#notlog{
+    color: #FB4F38;
+    margin-top: 100px;
+    margin-left: 140px;
+    min-height: 100px;
+    font-size: 50px;
+    font-family: Fantasy;
+}
+
+#ispisinfo{
+    margin-top: 30px;
+    margin-left: 500px;
+}
+#ispisinfo h1{
+    margin-bottom: 20px;
+    font-family: Fantasy;
+}
+#ispisinfo span{
+    color: #FB4F38;
+    font-size: 20px;
+    font-family: Fantasy;
+
+}
+
+#accessdenied{
+    margin-left: 250px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+#accessdenied h1{
+    color: #FB4F38;
+    font-size: 60px;
+    font-family: Fantasy;
+}
